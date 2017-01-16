@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "first node js app",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antexfen/nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "anteneh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antexfen/nodejs/issues"
+  },
+  "homepage": "https://github.com/antexfen/nodejs#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+
+}
