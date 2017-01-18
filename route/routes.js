@@ -10,6 +10,7 @@ function cityR(req,res){
     var cityName = req.params.city;
     var titleValue;
     var headlineValue;
+    var numofImages=4;
 
     if(cityName ==='berlin'){
         titleValue='Berlin';
@@ -30,8 +31,11 @@ function cityR(req,res){
         headlineValue='Come to New York to become someone new';
     }
 
-      res.render('city',{title: titleValue,
-                            headline: headlineValue });
+      res.render('city',{   title: titleValue,
+                            headline: headlineValue,
+                            city:cityName,
+                            numberOfImages: numofImages
+                             });
 };
 module.exports.cityFn = cityR;
 module.exports.homeFn = homeR;
