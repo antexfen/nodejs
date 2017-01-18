@@ -1,13 +1,8 @@
 {
-<<<<<<< HEAD
-  "name": "i-love-my-vity-ejs",
+
+  "name": "i-love-my-city-ejs",
   "version": "1.0.0",
-  "description": "ilovemycity application using EJS template",
-=======
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "first node js app",
->>>>>>> 33d52ef68777d5edeaf4e67526fd80be081ce87b
+  "description": "ilove mycity application using EJS template",
   "main": "app.js",
   "scripts": {
     "test": "nodemon app.js"
@@ -17,12 +12,7 @@
     "url": "git+https://github.com/antexfen/nodejs.git"
   },
   "keywords": [
-<<<<<<< HEAD
     "ejs"
-=======
-    "node",
-    "js"
->>>>>>> 33d52ef68777d5edeaf4e67526fd80be081ce87b
   ],
   "author": "anteneh",
   "license": "ISC",
@@ -31,13 +21,9 @@
   },
   "homepage": "https://github.com/antexfen/nodejs#readme",
   "dependencies": {
-<<<<<<< HEAD
+    
     "ejs": "^2.5.5",
     "express": "^4.14.0"
   }
-=======
-    "express": "^4.14.0"
-  }
 
->>>>>>> 33d52ef68777d5edeaf4e67526fd80be081ce87b
 }
