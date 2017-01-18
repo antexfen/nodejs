@@ -1,0 +1,26 @@
+{
+  "name": "i-love-my-vity-ejs",
+  "version": "1.0.0",
+  "description": "ilovemycity application using EJS template",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antexfen/nodejs.git"
+  },
+  "keywords": [
+    "ejs"
+  ],
+  "author": "anteneh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antexfen/nodejs/issues"
+  },
+  "homepage": "https://github.com/antexfen/nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
+}
