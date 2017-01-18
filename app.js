@@ -9,7 +9,7 @@ app.get('/',handlers.homeFn);
 
 app.get('/:city',handlers.cityFn);
 
-app.use(exp.static('_dirname' + 'public'));
+app.use(exp.static(__dirname + '/public'));
 
 var port = process.env.PORT || 8080;
 
